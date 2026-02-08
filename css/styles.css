@@ -490,3 +490,12 @@ img {
 .modal-container-wrapper:hover .modal-paragraph {
   transform: translateY(0%);
 }
+
+.form-subscribe {
+  color: #f4f4fd;
+}
+
+.subscribe-input {
+  margin-top: 16px;
+  margin-right: 24px;
+}
