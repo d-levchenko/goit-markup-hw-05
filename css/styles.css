@@ -491,11 +491,8 @@ img {
   transform: translateY(0%);
 }
 
-.form-subscribe {
+/* subscribe container */
+.container-subscribe {
+  display: flex;
   color: #f4f4fd;
-}
-
-.subscribe-input {
-  margin-top: 16px;
-  margin-right: 24px;
 }
