@@ -364,13 +364,13 @@
           <h2 class="portfolio-header">Our Portfolio</h2>
           <ul class="portfolio-ul">
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/bank-app.jpg"
                   alt="Marketing App"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -383,13 +383,13 @@
               </div>
             </li>
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/cashless.jpg"
                   alt="Cashless Payment"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -402,13 +402,13 @@
               </div>
             </li>
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/meditation.jpg"
                   alt="Meditation App"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -422,13 +422,13 @@
             </li>
 
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/taxi-serv.jpg"
                   alt="Taxi Service"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -441,13 +441,13 @@
               </div>
             </li>
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/screen-illust.jpg"
                   alt="Screen Illustrations"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -460,13 +460,13 @@
               </div>
             </li>
             <li class="portfolio-li-elem">
-              <div class="modal-container-wrapper">
+              <div class="features-popup-container">
                 <img
                   src="./images/portfolio/online-courses.jpg"
                   alt="Online Courses"
                   width="360"
                 />
-                <p class="modal-paragraph">
+                <p class="popup-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
@@ -532,20 +532,75 @@
 
         <div class="container-subscribe">
           <form class="subscribe-form">
-            Subscribe
-            <p class="subscribe-paragraph"></p>
-            <label for="subscribe" class="subscribe-label">
-              <input
-                type="text"
-                id="subscribe"
-                class="subscribe-input"
-                placeholder="E-mail"
-              />
-              <button class="subscribe-button" type="submit">Subscribe</button>
-            </label>
+            <p class="subscribe-paragraph">Subscribe</p>
+            <div class="subscribe-align-items">
+              <label for="subscribe" class="subscribe-label">
+                <input
+                  type="text"
+                  id="subscribe"
+                  class="subscribe-input"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button class="subscribe-button" type="submit">
+                Subscribe
+                <svg class="svg-icon" width="24" height="20">
+                  <use href="./images/icons.svg#telegram" />
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay-popup">
+      <div class="modal-window">
+        <button
+          class="modal-close-button"
+          type="submit"
+          aria-label="Close modal"
+        >
+          <svg class="svg-icon modal-close-icon" width="24" height="24">
+            <use href="./images/icons.svg#close" />
+          </svg>
+        </button>
+        <p class="modal-paragraph">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-label">
+            Name
+            <input class="modal-input" type="text" />
+          </label>
+          <label class="modal-label">
+            Phone
+            <input class="modal-input" type="tel" />
+          </label>
+          <label class="modal-label">
+            Email
+            <input class="modal-input" type="email" />
+          </label>
+          <label class="modal-label">
+            Comment
+            <input
+              class="modal-input modal-comment"
+              type="text"
+              placeholder="Text input"
+            />
+          </label>
+        </form>
+        <div class="modal-checkbox-wrapper">
+          <label class="modal-label modal-checkbox">
+            <input type="checkbox" />
+            <span>
+              I accept the terms and conditions of the
+              <a class="modal-link" href="#">Privacy Policy</a>
+            </span>
+          </label>
+          <button class="modal-send-button" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

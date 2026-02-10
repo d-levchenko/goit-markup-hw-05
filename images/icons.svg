@@ -22,6 +22,36 @@
     <symbol id="facebook" fill="none" viewBox="0 0 16 16">
       <path fill="var(--color0, #f4f4fd)" d="M10.665 2.657h1.46V.113A19 19 0 0 0 9.997 0C7.891 0 6.45 1.325 6.45 3.76V6H4.125v2.844h2.324V16h2.849V8.845h2.23L11.882 6H9.297V4.04c.001-.822.222-1.384 1.368-1.384"/>
     </symbol>
+    <symbol id="phone-icon" fill="none" viewBox="0 0 24 24">
+      <path fill="var(--color0, #2e2f42)" d="m14.726 13.865-1.838-.21a1.44 1.44 0 0 0-1.187.413l-1.331 1.331A10.9 10.9 0 0 1 5.6 10.63l1.34-1.339a1.44 1.44 0 0 0 .412-1.186l-.21-1.824A1.45 1.45 0 0 0 5.702 5H4.45c-.818 0-1.498.68-1.447 1.498.383 6.18 5.326 11.116 11.499 11.5.818.05 1.498-.63 1.498-1.448v-1.252a1.434 1.434 0 0 0-1.274-1.433"/>
+      <defs>
+        <clipPath id="clip0_297083_8305">
+          <path fill="#fff" d="M0 0h18v24H0z"/>
+        </clipPath>
+        <filter id="filter0_d_297083_8305" width="21" height="21" color-interpolation-filters="srgb" filterUnits="userSpaceOnUse"/>
+      </defs>
+    </symbol>
+    <symbol id="person-icon" fill="none" viewBox="0 0 24 24">
+      <path fill="var(--color1, #4d5ae5)" d="M9 9a3 3 0 1 0 0-6 3 3 0 1 0 0 6m0 1.5c-2.002 0-6 1.005-6 3v.75c0 .412.337.75.75.75h10.5c.413 0 .75-.337.75-.75v-.75c0-1.995-3.997-3-6-3"/>
+      <defs>
+        <clipPath id="clip0_1044706_87">
+          <path fill="#fff" d="M0 0h18v18H0z"/>
+        </clipPath>
+      </defs>
+    </symbol>
+    <symbol id="email-icon" fill="none" viewBox="0 0 24 24">
+      <path fill="var(--color0, #2e2f42)" d="M15 6H3c-.825 0-1.492.675-1.492 1.5l-.008 9c0 .825.675 1.5 1.5 1.5h12c.825 0 1.5-.675 1.5-1.5v-9c0-.825-.675-1.5-1.5-1.5m-.3 3.188-5.302 3.314a.76.76 0 0 1-.796 0L3.3 9.188a.637.637 0 1 1 .675-1.08L9 11.25l5.025-3.142a.637.637 0 1 1 .675 1.08"/>
+    </symbol>
+    <symbol id="close" fill="none" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="12" fill="var(--color3, #e7e9fc)"/>
+      <circle cx="12" cy="12" r="11.5" stroke="var(--color2, #000)" stroke-opacity=".1"/>
+      <path fill="var(--color0, #2e2f42)" d="M16 8.806 15.194 8 12 11.194 8.806 8 8 8.806 11.194 12 8 15.194l.806.806L12 12.806 15.194 16l.806-.806L12.806 12z"/>
+      <defs>
+        <clipPath id="clip0_1011801_2024">
+          <path fill="#fff" d="M8 8h8v8H8z"/>
+        </clipPath>
+      </defs>
+    </symbol>
     <symbol id="diagram" fill="none" viewBox="0 0 64 64">
       <g fill="var(--color2, #4d5ae5)" clip-path="url(#clip0_1004689_1305)">
         <path d="M29.851 29.93h2.132v9.594h-2.132zm8.529 4.264h2.132v5.33H38.38zm-17.058 3.198h2.132v2.132h-2.132zm-6.396-1.066h2.132v3.198h-2.132z"/>
