@@ -556,12 +556,8 @@
 
     <div class="modal-overlay-popup">
       <div class="modal-window">
-        <button
-          class="modal-close-button"
-          type="submit"
-          aria-label="Close modal"
-        >
-          <svg class="svg-icon modal-close-icon" width="24" height="24">
+        <button type="submit" class="modal-close-button">
+          <svg class="svg-icon" width="24" height="24">
             <use href="./images/icons.svg#close" />
           </svg>
         </button>
@@ -569,26 +565,65 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <label class="modal-label">
-            Name
-            <input class="modal-input" type="text" />
-          </label>
-          <label class="modal-label">
-            Phone
-            <input class="modal-input" type="tel" />
-          </label>
-          <label class="modal-label">
-            Email
-            <input class="modal-input" type="email" />
-          </label>
-          <label class="modal-label">
-            Comment
+          <label for="name" class="modal-label">Name</label>
+
+          <div class="modal-wrapper">
+            <svg class="svg-icon modal-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#person-icon"></use>
+            </svg>
+
             <input
-              class="modal-input modal-comment"
+              id="name"
               type="text"
-              placeholder="Text input"
+              class="modal-input"
+              autocomplete="off"
+              name="name"
             />
-          </label>
+          </div>
+
+          <label for="phone" class="modal-label">Phone</label>
+
+          <div class="modal-wrapper">
+            <svg class="svg-icon modal-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#phone-icon"></use>
+            </svg>
+
+            <input
+              id="phone"
+              type="tel"
+              class="modal-input"
+              autocomplete="off"
+              name="phone"
+            />
+          </div>
+
+          <label for="email" class="modal-label">Email</label>
+
+          <div class="modal-wrapper">
+            <svg class="svg-icon modal-input-icon" width="18" height="18">
+              <use href="./images/icons.svg#email-icon"></use>
+            </svg>
+
+            <input
+              id="email"
+              type="email"
+              class="modal-input"
+              autocomplete="off"
+              name="email"
+              required
+            />
+          </div>
+
+          <label for="comment" class="modal-label">Comment</label>
+
+          <div class="modal-wrapper">
+            <textarea
+              class="modal-input comment-field"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
         </form>
         <div class="modal-checkbox-wrapper">
           <label class="modal-label modal-checkbox">
