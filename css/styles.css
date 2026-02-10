@@ -559,8 +559,8 @@ img {
   top: 0;
   left: 0;
 
-  /* opacity: 0;
-  pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal-overlay-popup.is-open {
